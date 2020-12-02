@@ -1,5 +1,5 @@
 <?php
-	$_POST = array(
+	$val = array(
 		);
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 	
