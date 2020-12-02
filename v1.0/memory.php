@@ -1,6 +1,4 @@
 <?php
-	$val = array(
-		);
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 	
 	// $headers = apache_request_headers();
