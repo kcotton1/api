@@ -1,4 +1,6 @@
 <?php
+	$_POST = array(
+		);
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 	
 	// $headers = apache_request_headers();
