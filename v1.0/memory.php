@@ -7,8 +7,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 	 $token = $headers['Authorization'];
 	
 	 if ($token !== 'Basic ') {
-		// http_response_code(401);
-		// exit();
+		 http_response_code(401);
+		 exit();
 	 }
 	
 	if (array_key_exists('mem', $_COOKIE)) {
